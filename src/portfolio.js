@@ -4,6 +4,15 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import langChainImg from "./assets/images/softwareSkillsImages/lc.png";
+import tsImg from "./assets/images/softwareSkillsImages/ts.png";
+import cImg from "./assets/images/softwareSkillsImages/c_sharp.png";
+import netImg from "./assets/images/softwareSkillsImages/net.png";
+import scikitImg from "./assets/images/softwareSkillsImages/scikit.png";
+import jupyterImg from "./assets/images/softwareSkillsImages/jupyter.png";
+import lambdaImg from "./assets/images/softwareSkillsImages/lambda.png";
+import axiosImg from "./assets/images/softwareSkillsImages/axios.png";
+import gqlImg from "./assets/images/softwareSkillsImages/gql.png";
 
 // Splash Screen
 
@@ -20,28 +29,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "William Chen",
+  title: "Hi! I'm William!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. Specialised in ML/AI and has experience with developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hx3JKoPaS_1oS6LPZrFuKJJZ-lrBx_v-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/chillingo117",
+  linkedin: "https://www.linkedin.com/in/wilchen117/",
+  gmail: "kiwitwwilliam@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,72 +52,78 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Software Management + Engineering + Development with ML/AI Specialisation",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Experienced in Full Stack development, enabling seamless application of ML/AI skills"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Full inception of ML/AI projects, starting from initial requirements analyses, leading to ML/AI investigation, finalising into practical outcomes"
+    ),
+    emoji("⚡ Integration of ML/AI solutions into enterprise codebases")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      image: tsImg
+    },
+    {
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "C#",
+      image: cImg
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: ".NET",
+      image: netImg
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "LangChain",
+      image: langChainImg
+    },
+    {
+      skillName: "Scikit",
+      image: scikitImg
+    },
+    {
+      skillName: "Jupyter",
+      image: jupyterImg
+    },
+    {
+      skillName: "Lambdas",
+      image: lambdaImg
+    },
+    {
+      skillName: "Axios",
+      image: axiosImg
+    },
+    {
+      skillName: "GraphQL",
+      image: gqlImg
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +135,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Melbourne",
+      logo: require("./assets/images/education/uom.png"),
+      subHeader: "Master of Information Technology",
+      duration: "February 2023 - August 2025",
+      desc: "Specialised in Artificial Intelligence, taking courses in Machine Learning, Large Language Models, and AI Ethics",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Placed in the top 5% of masters in the Master of IT course, earning a place on the Dean's Honor List",
+        "Collaborated with the University of Eastern Finland on making a LLM driven patient medical simulator"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Canterbury",
+      logo: require("./assets/images//education/uc.png"),
+      subHeader: "Bachelor of Science",
+      duration: "February 2019 - December 2021",
+      desc: "Double majored in Computer Science and Data Science. Took courses about Software Development, Statistics and Calculus, and Project Management",
+      descBullets: [
+        "Entered the degree with an AIMS Scholarship for Mathematics",
+        "Graduated with a 8.67 GPA (0-9 Scale)",
+        "Volunteered in the Student Volunteer Army"
+      ]
     }
   ]
 };
@@ -150,7 +163,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +187,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Phocas Software",
+      companylogo: require("./assets/images/experience/phocas.png"),
+      date: "December 2021 – March 2025",
+      desc: "Rotated through teams at Phocas through a Graduate Program. Practiced Full Stack development before joining the AI team. Developed the Phocas AI using Agentic Generative AI in LangChain.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Predominantly C#/.NET backend, React in both TS and JS for frontend, SQL Server data sources, and a variety of CI/CD frameworks"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sub-Team Lead",
+      company: "MBSI",
+      companylogo: require("./assets/images/experience/msbi.png"),
+      date: "December 2021 – Present",
+      desc: "Initially joined MBSI as a Software Advisor for Project CereCe, aiding the team in improving code quality, software lifecycle management, and project management. Nominated to become the team lead for the Brain Computer Interface (BCI) subteam. Now leading a team of 7 in developing and maintaining the BCI, supporting integrations with other subteam projects."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Project Manager",
+      company: "University of Melbourne",
+      companylogo: require("./assets/images/education/uom.png"),
+      date: "February 2025 – Present",
+      desc: "Currently the acting product manager of a team of 5, serving a research client in the University of Eastern Finland. Responsibilities include Agile Software Management, user requirements gathering and analysis, and documentation of processes/progress. Also acting in a developer and software mentoring capacity. "
     }
   ]
 };
@@ -239,7 +251,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -324,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +368,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +377,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -380,10 +392,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

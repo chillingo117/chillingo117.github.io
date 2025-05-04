@@ -1,13 +1,12 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import myGif from "./cat.gif";
+import me from "./profile_clear.png";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -25,7 +24,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <img className="cat-gif" src={myGif} alt="A Cool GIF" />
               </h1>
               <p
                 className={
@@ -53,14 +52,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <img className="profile-pic" alt="my profile" src={me}></img>
           </div>
         </div>
       </div>
