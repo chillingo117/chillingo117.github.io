@@ -4,15 +4,15 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import langChainImg from "./assets/images/softwareSkillsImages/lc.png"
-import tsImg from "./assets/images/softwareSkillsImages/ts.png"
-import cImg from "./assets/images/softwareSkillsImages/c_sharp.png"
-import netImg from "./assets/images/softwareSkillsImages/net.png"
-import scikitImg from "./assets/images/softwareSkillsImages/scikit.png"
-import jupyterImg from "./assets/images/softwareSkillsImages/jupyter.png"
-import lambdaImg from "./assets/images/softwareSkillsImages/lambda.png"
-import axiosImg from "./assets/images/softwareSkillsImages/axios.png"
-import gqlImg from "./assets/images/softwareSkillsImages/gql.png"
+import langChainImg from "./assets/images/softwareSkillsImages/lc.png";
+import tsImg from "./assets/images/softwareSkillsImages/ts.png";
+import cImg from "./assets/images/softwareSkillsImages/c_sharp.png";
+import netImg from "./assets/images/softwareSkillsImages/net.png";
+import scikitImg from "./assets/images/softwareSkillsImages/scikit.png";
+import jupyterImg from "./assets/images/softwareSkillsImages/jupyter.png";
+import lambdaImg from "./assets/images/softwareSkillsImages/lambda.png";
+import axiosImg from "./assets/images/softwareSkillsImages/axios.png";
+import gqlImg from "./assets/images/softwareSkillsImages/gql.png";
 
 // Splash Screen
 
@@ -32,7 +32,8 @@ const greeting = {
   username: "William Chen",
   title: "Hi! I'm William!",
   subTitle: emoji(
-    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. Specialised in ML/AI and has experience with developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`),
+    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. Specialised in ML/AI and has experience with developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1hx3JKoPaS_1oS6LPZrFuKJJZ-lrBx_v-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,14 +52,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software Management + Engineering + Development with ML/AI Specialisation",
+  subTitle:
+    "Software Management + Engineering + Development with ML/AI Specialisation",
   skills: [
     emoji(
       "⚡ Experienced in Full Stack development, enabling seamless application of ML/AI skills"
     ),
-    emoji("⚡ Full inception of ML/AI projects, starting from initial requirements analyses, leading to ML/AI investigation, finalising into practical outcomes"),
     emoji(
-      "⚡ Integration of ML/AI solutions into enterprise codebases")
+      "⚡ Full inception of ML/AI projects, starting from initial requirements analyses, leading to ML/AI investigation, finalising into practical outcomes"
+    ),
+    emoji("⚡ Integration of ML/AI solutions into enterprise codebases")
   ],
 
   softwareSkills: [
@@ -93,7 +96,7 @@ const skillsSection = {
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
-    },    
+    },
     {
       skillName: "LangChain",
       image: langChainImg

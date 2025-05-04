@@ -52,13 +52,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            
-              <img
-              className="profile-pic"
-                alt="my profile"
-                src={me}
-              ></img>
-            
+            <img className="profile-pic" alt="my profile" src={me}></img>
           </div>
         </div>
       </div>
