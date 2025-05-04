@@ -23,10 +23,10 @@ const greeting = {
   username: "William Chen",
   title: "Hi! I'm William!",
   subTitle: emoji(
-    "A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. I specialise in Machine Learning and Artificial Intelligence, and have experience with developing Generative AI solutions with LangChain."
+    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. While I have the skillset of a Full Stack Developer, I also specialise in ML/AI and have experience with developing Generative AI solutions with LangChain.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hx3JKoPaS_1oS6LPZrFuKJJZ-lrBx_v-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
