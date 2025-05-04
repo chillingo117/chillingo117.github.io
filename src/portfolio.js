@@ -132,23 +132,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Melbourne",
+      logo: require("./assets/images/education/uom.png"),
+      subHeader: "Master of Information Technology",
+      duration: "February 2023 - August 2025",
+      desc: "Specialised in Artificial Intelligence, taking courses in Machine Learning, Large Language Models, and AI Ethics",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Placed in the top 5% of masters in the Master of IT course, earning a place on the Dean's Honor List",
+        "Collaborated with the University of Eastern Finland on making a LLM driven patient medical simulator"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Canterbury",
+      logo: require("./assets/images//education/uc.png"),
+      subHeader: "Bachelor of Science",
+      duration: "February 2019 - December 2021",
+      desc: "Double majored in Computer Science and Data Science. Took courses about Software Development, Statistics and Calculus, and Project Management",
+      descBullets: [
+        "Entered the degree with an AIMS Scholarship for Mathematics",
+        "Graduated with a 8.67 GPA (0-9 Scale)",
+        "Volunteered in the Student Volunteer Army"
+      ]
     }
   ]
 };
@@ -180,29 +184,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Phocas Software",
+      companylogo: require("./assets/images/experience/phocas.png"),
+      date: "December 2021 – March 2025",
+      desc: "Rotated through teams at Phocas through a Graduate Program. Practiced Full Stack development before joining the AI team. Developed the Phocas AI using Agentic Generative AI in LangChain.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Predominantly C#/.NET backend, React in both TS and JS for frontend, SQL Server data sources, and a variety of CI/CD frameworks"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sub-Team Lead",
+      company: "MBSI",
+      companylogo: require("./assets/images/experience/msbi.png"),
+      date: "December 2021 – Present",
+      desc: "Initially joined MBSI as a Software Advisor for Project CereCe, aiding the team in improving code quality, software lifecycle management, and project management. Nominated to become the team lead for the Brain Computer Interface (BCI) subteam. Now leading a team of 7 in developing and maintaining the BCI, supporting integrations with other subteam projects."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Project Manager",
+      company: "University of Melbourne",
+      companylogo: require("./assets/images/education/uom.png"),
+      date: "February 2025 – Present",
+      desc: "Currently the acting product manager of a team of 5, serving a research client in the University of Eastern Finland. Responsibilities include Agile Software Management, user requirements gathering and analysis, and documentation of processes/progress. Also acting in a developer and software mentoring capacity. "
     }
   ]
 };
