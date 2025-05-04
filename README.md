@@ -17,4 +17,8 @@ This project is my EPortfolio, welcome!
   - You should be able to now run `npm start`
 
 ## Deployment
-To Do
+Pushes to the `master` branch will trigger the `Build and Deploy` pipeline (alternatively this can be manually triggered).
+
+Deployment will update the branch `gh-pages`, which will in turn trigger GitHub Pages' automatic `pages-build-deployment`.
+
+Completion will update the GitHub page at https://chillingo117.github.io/
