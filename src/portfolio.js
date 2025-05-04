@@ -23,8 +23,7 @@ const greeting = {
   username: "William Chen",
   title: "Hi! I'm William!",
   subTitle: emoji(
-    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. While I have the skillset of a Full Stack Developer, I also specialise in ML/AI and have experience with developing Generative AI solutions with LangChain.`
-  ),
+    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. Specialised in ML/AI and has experience with developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`),
   resumeLink:
     "https://drive.google.com/file/d/1hx3JKoPaS_1oS6LPZrFuKJJZ-lrBx_v-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,15 +32,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/chillingo117",
+  linkedin: "https://www.linkedin.com/in/wilchen117/",
+  gmail: "kiwitwwilliam@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,15 +42,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Software Engineering/Management/Development with ML/AI Specialisation",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Experienced in Full Stack development, enabling seamless application of ML/AI skills"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Full inception of ML/AI, from inital requirements analysis through to practical outcomes"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of ML/AI solutions into enterprise codebases")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,23 +57,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "LangChain",
+      image: langChainImg
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "JS & TS",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "react",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -89,32 +73,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
