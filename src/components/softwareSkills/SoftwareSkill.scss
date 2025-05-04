@@ -19,13 +19,12 @@
   color: $subTitle;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.software-skill-inline > img {
+  filter: brightness(0.6);
 }
+
+
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
 }
