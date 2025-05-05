@@ -1,6 +1,8 @@
 #Chillingo117's DeveloperFolio
 This project is my EPortfolio, welcome!
 
+The code here powers my personal site, check it out [here](https://chillingo117.github.io/)
+
 ## How to use
   - Requires:
     - node@v10.16.0 or higher
