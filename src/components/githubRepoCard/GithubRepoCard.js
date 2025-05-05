@@ -49,7 +49,7 @@ export default function GithubRepoCard({repo, isDark}) {
                   <p>{repo.node.primaryLanguage.name}</p>
                 </span>
               )}
-              <span>
+              <span style={{display: "none"}}>
                 <svg
                   aria-hidden="true"
                   className="octicon repo-star-svg"
@@ -66,7 +66,7 @@ export default function GithubRepoCard({repo, isDark}) {
                 </svg>
                 <p>{repo.node.forkCount}</p>
               </span>
-              <span>
+              <span style={{display: "none"}}>
                 <svg
                   aria-hidden="true"
                   className="octicon repo-star-svg"
