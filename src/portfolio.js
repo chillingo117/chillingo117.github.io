@@ -19,7 +19,7 @@ import gqlImg from "./assets/images/softwareSkillsImages/gql.png";
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
