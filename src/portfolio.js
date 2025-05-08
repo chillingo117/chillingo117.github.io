@@ -138,7 +138,7 @@ const educationInfo = {
       schoolName: "University of Melbourne",
       logo: require("./assets/images/education/uom.png"),
       subHeader: "Master of Information Technology",
-      duration: "February 2023 - August 2025",
+      duration: "February 2023 - June 2025",
       desc: "Specialised in Artificial Intelligence, taking courses in Machine Learning, Large Language Models, and AI Ethics",
       descBullets: [
         "Placed in the top 5% of masters in the Master of IT course, earning a place on the Dean's Honor List",
