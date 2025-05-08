@@ -13,7 +13,8 @@ import jupyterImg from "./assets/images/softwareSkillsImages/jupyter.png";
 import lambdaImg from "./assets/images/softwareSkillsImages/lambda.png";
 import axiosImg from "./assets/images/softwareSkillsImages/axios.png";
 import gqlImg from "./assets/images/softwareSkillsImages/gql.png";
-
+import sqlServerImg from "./assets/images/softwareSkillsImages/sqlServer.png";
+import pgImg from "./assets/images/softwareSkillsImages/pg.png";
 // Splash Screen
 
 const splashScreen = {
@@ -32,7 +33,7 @@ const greeting = {
   username: "William Chen",
   title: "Hi! I'm William!",
   subTitle: emoji(
-    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. Specialised in ML/AI with experience in developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`
+    `A software developer with 3+ years of experience and a Master of Information Technology from the University of Melbourne. A full stack developer specialised in ML/AI with experience in developing Generative AI solutions, Reinforced Learning, and Supervised Learning methods`
   ),
   resumeLink:
     "https://drive.google.com/file/d/1hx3JKoPaS_1oS6LPZrFuKJJZ-lrBx_v-/view?usp=sharing", // Set to empty to hide the button
@@ -122,8 +123,12 @@ const skillsSection = {
       image: gqlImg
     },
     {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "SQL Server",
+      image: sqlServerImg
+    },
+    {
+      skillName: "PostgreSQL",
+      image: pgImg
     }
   ],
   display: true // Set false to hide this section, defaults to true
